@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="mBlog - {AUTHOR_NAME}">
+	<meta name="description" property="og:description" content="{AUTHOR_BIO}">
+	<meta property="og:type" content="website">
+	<title>mBlog - {AUTHOR_NAME}</title> 
+	<link rel="stylesheet" href="css/eight.css">
+	<link rel="stylesheet" href="css/mblog.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="icon" href="img/favicon.png">
+</head>
+<body>
+	<a id="new-article" href="./write/">New Article!</a>
+	<header id="main-header" class="full-viewport navigation-header">
+		<div class="container">
+			<div class="row v-align-middle">
+				<div class="xlarge-10 large-10 medium-10 small-8 xsmall-8">
+					<h1 style="margin-left: 30px">mBlog</h1>
+				</div>
+				<div class="align-center xlarge-2 large-2 medium-2 small-4 xsmall-4">
+					<p style="margin-right: 30px;"><a href="#">About mBlog</a></p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="home-main-section">
+		<div class="row v-align-middle">
+			<div class="author-box xlarge-8 large-8 medium-8 xlarge-offset-3 large-offset-3 medium-offset-3">
+				<div class="row v-align-middle">
+					<div class="xlarge-3 large-3 medium-3 small-3">
+						<img class="author-pic" src="./img/author.jpg">
+					</div>
+					<div class="xlarge-9 large-9 medium-9 small-9">
+							<div class="author-name">
+								<p>{AUTHOR_NAME}</p>	
+							</div>
+							<div class="author-bio">
+								<p>{AUTHOR_BIO}</p>
+							</div>
+							<div class="author-links">
+								<a href="{AUTHOR_GITHUB}" target="_blank"><img src="img/github.svg" alt="Github"></a>
+								<a href="{AUTHOR_LINKEDIN}" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+								<a href="mailto:{AUTHOR_EMAIL}" target="_blank"><img src="img/email.svg" alt="Email"></a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="articles-section-top">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div style="color: rgb(120, 120, 120, 1);" class="xlarge-8 xlarge-offset-3 large-8 large-offset-3">
+						<p style="padding-top: 5px; font-family: Quicksand; font-size: 14px; font-weight: bold;">ARTICLES</p>
+						<div style="height:2px; border-radius: 5px; background-color: rgb(230, 230, 230, 1);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div id="list-of-articles">
+	</div>
+	<section id="pages-section" class="align-center">
+		<div id="page-buttons" style="display: inline-block;">
+		</div>
+	</section>
+	<footer class="full-viewport">
+		<div class="row">
+			<div class="container">
+				<div class="row v-align-middle">
+					<div class="xlarge-12 align-center">
+						<p style="font-family: Quicksand; font-size: 12px; color: rgba(0, 0, 0, 0.8)">
+						mBlog v0.1.0 by <a href="https://wgrocha.github.io">Willian Gabriel C. da Rocha</a> is licensed under <a href="LICENSE">MIT License.</a> 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="js/article-list.js"></script>
+<script src="js/plugin-loader.js"></script>
+</body>
+</html>
