@@ -1,7 +1,7 @@
 <h1 align="center">mBlog</h1><br>
 
-![GitHub](https://img.shields.io/github/license/wgrocha/mblog?style=for-the-badge)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wgrocha/mblog?sort=semver&style=for-the-badge)
+[![GitHub](https://img.shields.io/github/license/wgrocha/mblog?style=for-the-badge)](https://github.com/wgrocha/mblog/blob/master/LICENSE)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wgrocha/mblog?sort=semver&style=for-the-badge)](https://github.com/wgrocha/mblog/releases)
 
 ### Table of contents
 
