@@ -48,7 +48,7 @@ git clone https://github.com/wgrocha/mblog.git
 cd mblog
 python3 config.py
 ```
-- If you don't want do clone the repository or download from the download page, you can download [right here](https://example.com), extract the files and run the __*config.py*__ script:
+- If you don't want do clone the repository or download from the download page, you can download [right here](https://github.com/wgrocha/mblog/archive/master.zip), extract the files and run the __*config.py*__ script:
 ```
 python3 config.py
 ```
