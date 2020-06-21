@@ -1,6 +1,6 @@
 <h1 align="center">mBlog</h1><br>
 
-[![GitHub license](https://img.shields.io/github/license/wgrocha/mblog?color=green&style=for-the-badge)](https://github.com/mblog/LICENSE) 
+[![GitHub license](https://img.shields.io/github/license/wgrocha/mblog?color=green&style=for-the-badge)](https://github.com/wgrocha/mblog/LICENSE) 
 [![GitHub release](https://img.shields.io/github/v/release/wgrocha/mblog?color=blue&sort=semver&style=for-the-badge)](https://github.com/wgrocha/mblog/releases/)
 
 ### Table of contents
