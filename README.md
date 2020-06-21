@@ -48,12 +48,7 @@ git clone https://github.com/wgrocha/mblog.git
 cd mblog
 python3 config.py
 ```
-- If you don't want do clone the repository or download from the download page, you can download [right here](https://github.com/wgrocha/mblog/archive/master.zip), extract the files and run the __*config.py*__ script:
-```
-python3 config.py
-```
-
-The __*config.py*__ script will configure mBlog according to the information you give. After that you can start using mBlog.
+- If you don't want do clone the repository or download from the download page, you can download [right here](https://github.com/wgrocha/mblog/archive/master.zip), extract the files and run the __*config.py*__ script.
 
 ### Usage
 
