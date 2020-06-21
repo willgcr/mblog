@@ -1,0 +1,73 @@
+#home-main-section {
+	min-height: 40vh;
+}
+#new-article:active, #new-article:link, #new-article:visited, #new-article:hover {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 14px;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9;
+	background-color: #fff;
+}
+.author-box {
+	font-family: 'Quicksand';
+	font-size: 14px;
+	padding: 23px;
+}
+.author-name {
+	font-size: 16px;
+	font-weight: bold;
+}
+.author-pic {
+	max-height: 150px;
+	border-radius: 15px;
+}
+.author-links {
+	font-size: 14px;
+	text-align: left;
+	margin-top: 14px;
+}
+.author-links img {
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+.date {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.tags {
+	font-family: Quicksand;
+	margin-top: 20px;
+}
+.tags p {
+	font-size: 13px;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	background-color: #eee;
+	border-radius: 10px;
+}
+#pages-section .article-nav-button {
+	font-size: 14px;
+	width: 30px;
+	height: 30px;
+	clear: both;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 7px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+#pages-section .article-nav-button.button-highlight {
+	background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+    border: 0px;
+}

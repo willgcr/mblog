@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/******************************/
+/******** STYLES RESET ********/
+/******************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box !important;
+}
+
+/*************************************/
+/******** BLOG DEFAULT STYLES ********/
+/*************************************/
+
+body {
+	overflow-x: hidden;
+	line-height: 1.5em;
+	background: white;
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 16px;
+	margin: auto;
+}
+#main-header {
+	font-family: Quicksand;
+}
+h1 {
+	font-size: 44px;
+}
+table {
+    margin-top: 25px;
+}
+form input, form textarea {
+	margin: 5px;
+}
+pre {
+	font-size: 13px;
+	color: black;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	overflow: auto;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	padding: 14px;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	border: 0;
+	border-radius: 15px;
+	background-color: #f4f4f4;
+}
+.title {
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+.subtitle {
+	font-size: 18px;
+	color: rgba(130, 130, 130, 1);
+}
+section .row {
+	padding: 12px;
+}
+footer a:active, footer a:hover, footer a:visited, footer a:link {
+	color: #000;
+	font-style: italic;
+}
+footer .row {
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: rgba(250, 250, 250, 1);
+}
+header.navigation-header {
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
+}
+footer, footer .row:not(.newsletter) {
+	height: 100px;
+	font-size: 10px;
+}
+footer  {
+	position: relative;
+	clear: both;
+	top: 130px;
+}
+header, footer {
+	box-shadow: 0px 0px 4px 0px #ddd;
+}
+header .row {
+	height: 80px;
+}
+.section-divider {
+	display: inline-block;
+	margin-left: calc(50% - 50px);
+	width: 100px;
+	height: 3px;
+	border-radius: 5px;
+	background-color: rgb(230, 230, 230, 1);
+	z-index: 1;
+}

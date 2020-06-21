@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="mBlog - {AUTHOR_NAME}">
+	<meta name="description" property="og:description" content="{AUTHOR_BIO}">
+	<meta property="og:type" content="website">
+	<title>mBlog - Write Article</title> 
+	<link rel="stylesheet" href="../content-tools/content-tools.min.css">
+	<link rel="stylesheet" href="../css/eight.css">
+	<link rel="stylesheet" href="../css/mblog.css">
+	<link rel="stylesheet" href="../css/article.css">
+	<link rel="stylesheet" href="../css/write.css">
+	<link rel="icon" href="../img/favicon.png">
+</head>
+<body>
+	<header id="main-header" class="full-viewport navigation-header">
+		<div class="container">
+			<div class="row v-align-middle">
+				<div class="xlarge-10 large-10 medium-10 small-8 xsmall-8">
+					<h1 style="margin-left: 30px"><a href="../index.html">mBlog</a></h1>
+				</div>
+				<div class="align-center xlarge-2 large-2 medium-2 small-4 xsmall-4">
+					<p style="margin-right: 30px;"><a href="#">About mBlog</a></p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section style="margin-top: 50px; margin-bottom: 25px;">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="xlarge-12 align-center" style="margin-bottom: 25px;">
+						<label for="article-image-url">Article banner URL:</label>
+						<input name="article-image-url" id="article-image-url" placeholder="Recommended size: 1000x300px" type="text" style="width: 250px;">
+					</div>
+					<div data-editable data-name="editable-title" id="article-title" class="title xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2 align-center"><h2>New article</h2></div>
+					<div data-editable data-name="editable-subtitle" id="article-subtitle" class="subtitle xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2 align-center"><h3>Article subtitle</h3></div>
+					<div id="article-date" class="xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2 align-center"></div>
+					<div id="article-image" style="display: none;" class="xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2 align-center"></div>
+					<div data-editable data-name="editable-text" id="article-text" class="xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2 align-center">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut ante elementum, consequat nunc et, hendrerit ex. Nunc at tempor mauris, at aliquet lorem. Ut maximus ullamcorper ipsum, vitae egestas sem cursus ac. Suspendisse vehicula, ante et hendrerit imperdiet, nunc sem maximus urna, nec volutpat tellus velit ultricies ante. Pellentesque interdum tortor nec est porttitor consequat. Praesent ac metus mollis, tristique elit vel, efficitur lorem. Ut rhoncus elit ut leo ultricies, et ornare metus venenatis. Donec vitae porttitor mi, id iaculis metus. Nullam in urna suscipit, iaculis diam ac, convallis ex. In hac habitasse platea dictumst. Morbi vitae tristique nunc. Aliquam finibus a augue nec elementum. Aliquam laoreet tellus id quam auctor, ultricies interdum enim scelerisque.</p>
+					</div>
+					<div class="for-align-purposes xlarge-12" style="height: 70px;"></div>
+					<div id="article-author" class="xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2">
+						<p>{AUTHOR_NAME}</p>
+					</div>
+					<div id="article-tags" class="xlarge-6 xlarge-offset-4 large-8 large-offset-3 medium-8 medium-offset-3 small-10 small-offset-2 align-center">
+						<span data-editable data-name="editable-tags"><p>tag0</p></span>
+					</div>
+					<div style="font-size: 17px; margin-top: 50px;" class="xlarge-12 align-center" id="social-media-share"></div>
+					<div class="xlarge-12 align-center">
+						<button type="button" id="finish-editing" class="blue-button">I'm done!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="full-viewport">
+		<div class="row">
+			<div class="container">
+				<div class="row v-align-middle">
+					<div class="xlarge-12 align-center">
+						<p style="font-family: Quicksand; font-size: 12px; color: rgba(0, 0, 0, 0.8)">
+						mBlog v0.1.0 by <a href="https://wgrocha.github.io">Willian Gabriel C. da Rocha</a> is licensed under <a href="../LICENSE">MIT License.</a> 
+						<a href="https://getcontenttools.com">ContentTools</a> is licensed under <a href="https://github.com/GetmeUK/ContentTools/blob/master/LICENSE">MIT License</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="../js/write.js"></script>
+<script src="../content-tools/content-tools.min.js"></script>
+<script src="../content-tools/editor.js"></script>
+</body>
+</html>
