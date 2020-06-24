@@ -12,7 +12,7 @@ Have you ever made an open source contribution? Are you wondering how is the con
 - Find an issue that you are interested in addressing or a feature that you would like to add;
 - Fork the repository associated with the issue to your GitHub. This means that you will have your own copy of the repository;
 - Clone the repository to your local machine using ```git clone https://github.com/wgrocha/mblog.git```;
-- Create a new branch for your fix using ```git checkout -b branch-name-here```;
+- Create a new branch from dev branch for your changes using ```git checkout -b branch-name-here dev```;
 - Make the appropriate changes for the issue you are trying to address or the feature that you want to add;
 - Use ```git add insert-paths-of-changed-files-here``` to add the file contents of the changed files to the "snapshot" git uses to manage the state of the project, also known as the index;
 - Use ```git commit -m "Insert a short message of the changes made here"``` to store the contents of the index with a descriptive message;
@@ -23,6 +23,7 @@ Have you ever made an open source contribution? Are you wondering how is the con
 - Wait for the pull request to be reviewed;
 - Make changes to the pull request if you are recommended to do so.
 - Celebrate your success after your pull request is merged!
+- After merged to dev branch your changes will be ready for the next release :wink:
 
 
 ### Where can you go for help?
