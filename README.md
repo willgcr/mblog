@@ -17,7 +17,7 @@
 
 ##### Other
 
-- Documentation __*(Not available yet)*__
+- [Documentation](DOCUMENTATION.md)
 - Official mBlog site __*(not available yet)*__
 - FAQ __*(not available yet)*__
 
@@ -100,7 +100,7 @@ By default mBlog comes with one activated plugin __*(social-media-share.js)*__, 
 
 ##### How to create a plugin?
 
-If you want to create a plugin for mBlog please visit the [documentation](#) and go get things done :wink:
+If you want to create a plugin for mBlog please visit the [documentation](DOCUMENTATION.md) and go get things done :wink:
 
 ### Contributing
 

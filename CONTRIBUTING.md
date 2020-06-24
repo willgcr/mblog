@@ -3,7 +3,7 @@
 ### What do you need to know to help?
 
 The mBlog is a very simple blog engine, it uses raw Javascript, CSS and HTML, the database is a simple JSON file. By the way, if you don't feel ready to make a code contribution yet, no problem! You can also contribute to documentation, translation or any other kind of contribution to improve mBlog.<br><br>
-If you are interested in making a code contribution and would like to learn more about how mBlog really works check out the [documentation](#).
+If you are interested in making a code contribution and would like to learn more about how mBlog really works check out the [documentation](DOCUMENTATION.md).
 
 ### How to make a contribution?
 
