@@ -30,7 +30,7 @@ Besides that it doesn't even use any server-side languages. It's perfect to be u
 
 You can look at mBlog like a CMS, the simplest CMS you can imagine. Don't waste time comparing it to other CMS platforms like Wordpress, Joomla, or any other, mBlog was designed to be a simple blog engine and nothing more. 
 
-[Click here to check a live demo of mBlog.](https://wgrocha.github.io/mblog-demo/)
+[Click here to check a live demo of mBlog.](https://willgcr.github.io/mblog-demo/)
 
 ### How it works?
 
